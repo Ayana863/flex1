@@ -1,0 +1,13 @@
+media query = used to build responsive webpages
+
+<!-- @the ratemedia using mediaqurey is used to responsive
+ @media not|only mediatype 
+
+                        {
+                     css-code; 
+                     } -->
+
+                     breake ponts
+              480px-sm   =    small screen
+              768px-md   =    medium screen
+              992px-lg   =    extra large

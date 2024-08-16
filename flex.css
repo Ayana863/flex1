@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.gal{
+   padding-top: 100px;
+  border: 40px;
+    font-size: 50px;
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100px;
+  
+  
+  padding-inline-start: 3px;
+  margin: 15px;
+ 
+    
+}
+
+
+.con{
+    display: flex;
+    width: 90%;
+    height: 60px;
+    flex-direction: row;
+    flex-direction: row-reverse;
+  align-items: flex-start;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+ 
+   
+}
+
+
+.container{
+    margin: 70px;
+    display: flex;
+    width: 65%;
+    height: 400px;
+    
+   background-size: cover;
+   background-attachment: fixed;
+   line-height: 200px;
+   
+   
+    flex-direction: row-reverse;
+  
+   
+   
+}
+.conn{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+   
+    background-image: url(./pi1.jpg);
+   
+    background-size: cover;
+    background-size: contain;
+  background-size: 890px;
+
+}
+
+.aa{
+   
+    padding: 5px;
+    margin: 20px;
+   
+
+
+}
+#a{
+   
+    width: 450px;
+    height: 50px;
+   background-color: white;
+     
+}
+
+
+.container1{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 700px;
+   
+    flex-direction: row-reverse;
+    justify-content: space-between;
+   
+   
+   
+}
+img{
+    width: 250px;
+    height: 300px;
+
+}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7{
+   
+    width: 250px;
+    height: 300px;
+   
+    border: 2px solid black;
+  
+}
+nav{
+    position: fixed;
+}

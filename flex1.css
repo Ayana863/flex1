@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+.logo{
+    width: 120px;
+   
+}
+.list-item{
+    display: inline;
+    /* to display sameline */
+    margin: 0px 20px;
+    /* margin = 0
+        left right 20px */
+    
+
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#home-con{
+
+   margin: 13% 0% 0% 8%;
+   
+}
+#uname{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#lname{
+   color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#user-details{
+    line-height: 2;
+    /* paraghraph and link between 20px gap using margin-bottom 20px */
+    margin-bottom: 20px;
+}
+.download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    /* bordercontent gap using padding */
+    padding: 10px;
+    border-radius: 10px;
+}
+/* psudo class is hover */
+.links:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.home-imag{
+   
+   
+    position: absolute;
+   
+   
+}
+.home-imag:hover #shape{
+    bottom: 30%
+
+}
+.home-imag:hover #shape1{
+    left: 45%;
+}
+.group1{
+    position: absolute;
+  
+    right: 100px;
+ width: 320px;
+ height: 420px;
+ margin-bottom: 290px;
+ margin-top: -300px;
+ transform: translateX(-50%);
+ transition: bottom 2s, left 1s;
+ 
+   
+}
+#about{
+    margin: 8% 8% 0% 8%;
+}
+.section-head{
+    text-align: center;
+   
+}
+.main-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+}
+.sub-head{
+   font-family: fantasy;
+    font-size: 45px;
+   color: orangered;
+}
+#about-image>img{
+    
+    width: 330px;
+    height: 330px;
+    padding-left: 100px;
+    border-radius: 50%;
+    margin-top: 120px;
+}
+.about-content{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+   
+    padding-left: 500px;
+    margin-top: 120px;
+}
+.section-body{
+    display: flex;
+   
+    align-items: center;
+}
+.information{
+    margin-top: 20px;
+}
+.info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info-box>span{
+     margin-left: 20px;
+}
+#shape{
+    width: 300px;
+   bottom: -70px;
+}
+#skills{
+    margin: 8% 8% 0% 8%;
+   
+}
+
+
+
+
+
+.main{
+     height: 100%;
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr;
+   
+    justify-content: center;
+}
+.ima{
+    
+    margin-top: 350px;
+   
+    
+    
+}
+.barr{
+    margin-left: 70px;
+}
+
+#src{
+    margin-left: 300px;
+    border: solid;
+    border-color: yellow;
+    border-radius: 20px;
+}
+.tex{
+    margin-top: 200px;
+    
+}
+.text{
+    justify-content: center;
+   justify-content: space-between;
+    margin: 0px 80px;
+
+}
+#text1{
+   padding-left: 590px;
+   margin-top: -30px;
+   justify-content: space-evenly;
+}
+.progress-bar{
+    width: 600px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+   
+    margin-left: 20px;
+    position: absolute;
+
+    
+}
+#bar1{
+    background-color:chocolate;
+    width: 550px;
+    height: 10px;
+  
+}
+#bar2{
+    background-color:chocolate;
+    width: 480px;
+    height: 10px;
+}
+#bar3{
+    background-color:chocolate;
+    width: 450px;
+    height: 10px;
+}
+.main-head1{
+    font-family: fantasy;
+    font-size: 45px;
+   color: orangered;
+}
+#contact{
+    margin: 8%;
+}
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.icons{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0px 10px;
+  
+}
+
+.brand{
+    color:black;
+    font-size: 50px;
+   
+}
+.brand:hover{
+    color: white;
+}
+.icons:hover{
+ background-image: linear-gradient(red,green);
+ animation: rotate 6s;
+
+
+}
+@keyframes rotate{
+    0%{
+       transform: rotate(30deg);
+    }
+    20%{
+       transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+#copy-right{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.arrowup{
+    float: right;
+    margin-left: -400px ;
+}
+/* scroll behaviour = smooth */
+html{
+   scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track{
+    background-color:black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+}
+

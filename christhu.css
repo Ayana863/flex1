@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+.container{
+    background-color: aqua;
+    display: flex;
+    /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  justify-content: space-between;
+  height: 400px;
+  /* align-items:; to center */
+  /* align-items: flex-end; */
+  align-items: flex-start;
+  flex-wrap:wrap ;
+  flex-direction: column;
+ 
+}
+.a,.b,.c{
+
+   
+    height: 200px;
+    background-color: orange;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+    flex: 1;
+    /* flex: 1; eqal width */
+}
+.c{
+    order: 1;
+}
+.b{
+    order: 2;
+}
+.a{
+    order: 3;
+}

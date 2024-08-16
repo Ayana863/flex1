@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+nav{
+    
+   
+    height: 90px;
+    width: -900px;
+    background-color: violet;
+}
+.list-item{
+    display: flex;
+    display: inline;
+    color: white;
+   margin-left: 400px;
+  
+   
+}
+.links{
+    color:white;
+   
+}
+.links:hover{
+    color: chocolate;
+}
+
+.name{
+    color
+}
+.img{
+    background-color: red;
+}
